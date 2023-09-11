@@ -3,7 +3,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/image',
-    '@nuxtjs/supabase',
-    '@pinia/nuxt'
-  ]
+    '@vueuse/nuxt',
+    '@invictus.codes/nuxt-vuetify',
+    '@nuxtjs/tailwindcss',
+    'nuxt-icon'
+    // '@nuxtjs/supabase'
+  ],
+
 })
